@@ -1,0 +1,154 @@
+{
+    "name": "Aero Music",
+    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
+    "logo": "https://i.ibb.co/KpFkbgWc/x.jpg",
+    "keywords": ["python3", "telegram", "bot", "music-bot"],
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": "",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": "",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "A Bot's token from Botfather",
+            "value": "",
+            "required": true
+        },
+        "MONGO_URL": {
+            "description": "Get a mongodb url from https://cloud.mongodb.com.",
+            "value": "",
+            "required": true
+        },
+        "LOGGER_ID": {
+            "description": "Your log group ID, add your bot there and promote as an admin.",
+            "value": "",
+            "required": true
+        },
+        "OWNER_ID": {
+            "description": "The user id of user whom you would like to add as OWNER.",
+            "value": "",
+            "required": true
+        },
+        "SESSION": {
+            "description": "A Pyrogram v2 String Session from @StringFatherBot on Telegram.",
+            "value": "",
+            "required": true
+        },
+        "SESSION2": {
+            "description": "Optional: Pyrogram v2 String Session for 2nd assistant.",
+            "value": "",
+            "required": false
+        },
+        "SESSION3": {
+            "description": "Optional: Pyrogram v2 String Session for 3rd assistant.",
+            "value": "",
+            "required": false
+        },
+        "DURATION_LIMIT": {
+            "description": "Maximum track duration in minutes (default: 60).",
+            "value": "60",
+            "required": false
+        },
+        "QUEUE_LIMIT": {
+            "description": "Maximum queued tracks (default: 20).",
+            "value": "20",
+            "required": false
+        },
+        "PLAYLIST_LIMIT": {
+            "description": "Maximum playlist tracks to fetch (default: 20).",
+            "value": "20",
+            "required": false
+        },
+        "DL_HARD_LIMIT": {
+            "description": "Hard download cutoff in seconds (default: 1800).",
+            "value": "1800",
+            "required": false
+        },
+        "VIDEO_PLAY": {
+            "description": "Enable video streaming (True/False, default: True).",
+            "value": "True",
+            "required": false
+        },
+        "THUMB_GEN": {
+            "description": "Enable thumbnail generation (True/False, default: True).",
+            "value": "True",
+            "required": false
+        },
+        "AUTO_LEAVE": {
+            "description": "Auto-leave groups without active calls (True/False, default: False).",
+            "value": "False",
+            "required": false
+        },
+        "AUTO_END": {
+            "description": "Auto-end calls when only 1 participant (True/False, default: False).",
+            "value": "False",
+            "required": false
+        },
+        "LANG_CODE": {
+            "description": "Default bot language code (default: en).",
+            "value": "en",
+            "required": false
+        },
+        "YTAPI_URL": {
+            "description": "Primary YouTube streaming API URL.",
+            "value": "https://youtubify.up.railway.app",
+            "required": false
+        },
+        "FALLBACK_URL": {
+            "description": "Fallback download API URL.",
+            "value": "https://api01.shrutibots.site",
+            "required": false
+        },
+        "FALLBACK_APIKEY": {
+            "description": "API key for fallback download service.",
+            "value": "",
+            "required": false
+        },
+        "STORAGE_CHANNEL": {
+            "description": "Telegram channel ID for file_id caching in fallback pipeline.",
+            "value": "0",
+            "required": false
+        },
+        "COOKIES_URL": {
+            "description": "batbin.me URLs for YouTube cookies (space-separated).",
+            "value": "",
+            "required": false
+        },
+        "SUPPORT_CHANNEL": {
+            "description": "Support channel invite link.",
+            "value": "https://t.me/your_support_channel",
+            "required": false
+        },
+        "SUPPORT_CHAT": {
+            "description": "Support group invite link.",
+            "value": "https://t.me/x_support_chat",
+            "required": false
+        },
+        "START_IMG": {
+            "description": "Image URL for the /start command.",
+            "value": "https://i.ibb.co/fGQq6mRF/x.jpg",
+            "required": false
+        },
+        "PING_IMG": {
+            "description": "Image URL for the /ping command.",
+            "value": "https://i.ibb.co/3Yznt92V/x.jpg",
+            "required": false
+        },
+        "DEFAULT_THUMB": {
+            "description": "Default thumbnail image URL.",
+            "value": "https://i.ibb.co/3Yznt92V/x.jpg",
+            "required": false
+        },
+        "QUOTE_API": {
+            "description": "API endpoint for quote sticker generation.",
+            "value": "https://quote.yuri.ly/generate.png",
+            "required": false
+        }
+    }
+}
