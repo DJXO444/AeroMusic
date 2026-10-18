@@ -77,7 +77,7 @@ write   — ʜᴀɴᴅᴡʀɪᴛɪɴɢ ꜱɪᴍᴜʟᴀᴛɪᴏɴ
 
 ### 𝖧𝖾𝗋𝗈𝗄𝗎
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Notookk/AeroMusic)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/DJXO444/AeroMusic)
 
 | 𝖵𝖺𝗋𝗂𝖺𝖻𝗅𝖾 | 𝖱𝖾𝗊𝗎𝗂𝗋𝖾𝖽 | 𝖣𝖾𝗌𝖼𝗋𝗂𝗉𝗍𝗂𝗈𝗇 |
 |---|---|---|
