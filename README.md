@@ -127,5 +127,5 @@ again access -> screen -r aero
 </p>
 
 <p align="center">
-  <sub>© 2026 AeroXMusic — [- 𝖬 ᥆ ɤ ᥒ 𝛊 ᥒ G `᥉ t ᥲ ɾ ](https://t.me/Xazoc) </sub>
+  <sub>© 2026 AeroXMusic — [- 𝖬 ᥆ ɤ ᥒ 𝛊 ᥒ G `᥉ t ᥲ ɾ ](https://t.me/Xetoxy) </sub>
 </p>
