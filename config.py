@@ -49,9 +49,9 @@ class Config:
             url for url in getenv("COOKIES_URL", "").split(" ")
             if url and "batbin.me" in url
         ]
-        self.DEFAULT_THUMB = getenv("DEFAULT_THUMB", "https://i.ibb.co/3Yznt92V/x.jpg")
-        self.PING_IMG = getenv("PING_IMG", "https://i.ibb.co/3Yznt92V/x.jpg")
-        self.START_IMG = getenv("START_IMG", "https://i.ibb.co/fGQq6mRF/x.jpg")
+        self.DEFAULT_THUMB = getenv("DEFAULT_THUMB", "https://ibb.co/MxgbbS9D")
+        self.PING_IMG = getenv("PING_IMG", "https://ibb.co/MxgbbS9D")
+        self.START_IMG = getenv("START_IMG", "https://ibb.co/MxgbbS9D")
 
     def check(self):
         
